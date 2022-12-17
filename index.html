@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validation</title>
+</head>
+<style>
+#email
+{
+    width:600px;
+    height:30px;
+}
+
+#pasd
+{
+    width:600px;
+    height:30px;
+}
+#sbtn
+{
+    width:150px;
+    height:30px;
+    background-color: white;
+}
+label{
+    margin:10px;
+}
+input
+{
+    margin:10px;
+}
+button{
+    margin:10px;
+}
+#messageemail
+{
+    margin:10px;
+    
+}
+#messagepassword
+{
+    margin:10px;
+}
+#message
+{
+    margin:10px;
+}
+
+
+</style>
+<body>
+    <h2>
+        <!--Window confirm()-->
+    </h2>
+    <label>Email</label>
+    
+    <br>
+    <input type="text"  id="email" placeholder="Example@email.com">
+    <div disabled id="messageemail"></div>
+    <br>
+    <label>Password</label><br>
+    
+    <input type="password" id="pasd" placeholder="Your password" ><br>
+    
+   <div disabled id="message"></div>
+    <div disabled id="messagepassword"></div>
+    
+
+    <button id="sbtn" onclick="seek()">Submit</button>
+    <script src="script.js"></script>
+</body>
+</html>
